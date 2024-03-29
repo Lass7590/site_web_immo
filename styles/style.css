@@ -7,12 +7,14 @@ body{
    height: 100%;
    width: 100%;
    display: grid;
+   /*grid-template: Rangés / Colonnes*/
    grid-template: 70px 500px minmax(300px, 1fr) / 600px 1fr 600px;
 }
 
 /* ---------------- Menu --------------- */
 
 .menu{
+   /* grid-area: 1eLR / 1eLC / 2eLR / Dernier LC */
    grid-area: 1 / 1 / 2 / -1;
    /* background: black; */
    width: 100%;
